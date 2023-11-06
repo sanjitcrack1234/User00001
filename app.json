@@ -52,7 +52,7 @@
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "required": true
+            "required": false
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
@@ -100,7 +100,7 @@
         },
         "FQDN": {
             "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
-            "required": true
+            "required": false
         },
         "name": {
             "description": "Session Name",
