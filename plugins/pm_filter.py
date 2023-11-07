@@ -30,7 +30,8 @@ from database.filters_mdb import (
     find_filter,
     get_filters,
 )
-req_channel = REQ_CHANNEL
+import os
+req_channel = int(os.environ.get('REQ_CHANNEL',' 1387389680 '))
 
 import logging
 
